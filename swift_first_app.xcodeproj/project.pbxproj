@@ -13,6 +13,10 @@
 		339130E62C4769BF0080B184 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 339130E52C4769BF0080B184 /* Base */; };
 		339130E82C4769C00080B184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339130E72C4769C00080B184 /* Assets.xcassets */; };
 		339130EB2C4769C00080B184 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 339130EA2C4769C00080B184 /* Base */; };
+		339130F32C476ADC0080B184 /* gumayusi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 339130F22C476ADC0080B184 /* gumayusi.gif */; };
+		339130F52C476B350080B184 /* UIImage＋Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339130F42C476B350080B184 /* UIImage＋Gif.swift */; };
+		339130F72C476B880080B184 /* GifImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339130F62C476B880080B184 /* GifImageViewController.swift */; };
+		339130F92C47853A0080B184 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339130F82C47853A0080B184 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		339130E72C4769C00080B184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		339130EA2C4769C00080B184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		339130EC2C4769C00080B184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339130F22C476ADC0080B184 /* gumayusi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gumayusi.gif; sourceTree = "<group>"; };
+		339130F42C476B350080B184 /* UIImage＋Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage＋Gif.swift"; sourceTree = "<group>"; };
+		339130F62C476B880080B184 /* GifImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImageViewController.swift; sourceTree = "<group>"; };
+		339130F82C47853A0080B184 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				339130DE2C4769BF0080B184 /* AppDelegate.swift */,
 				339130E02C4769BF0080B184 /* SceneDelegate.swift */,
 				339130E22C4769BF0080B184 /* ViewController.swift */,
+				339130F62C476B880080B184 /* GifImageViewController.swift */,
+				339130F82C47853A0080B184 /* ImageViewController.swift */,
+				339130F42C476B350080B184 /* UIImage＋Gif.swift */,
 				339130E42C4769BF0080B184 /* Main.storyboard */,
 				339130E72C4769C00080B184 /* Assets.xcassets */,
 				339130E92C4769C00080B184 /* LaunchScreen.storyboard */,
 				339130EC2C4769C00080B184 /* Info.plist */,
+				339130F22C476ADC0080B184 /* gumayusi.gif */,
 			);
 			path = swift_first_app;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				339130F32C476ADC0080B184 /* gumayusi.gif in Resources */,
 				339130E82C4769C00080B184 /* Assets.xcassets in Resources */,
 				339130EB2C4769C00080B184 /* Base in Resources */,
 				339130E62C4769BF0080B184 /* Base in Resources */,
@@ -140,6 +153,9 @@
 			files = (
 				339130E32C4769BF0080B184 /* ViewController.swift in Sources */,
 				339130DF2C4769BF0080B184 /* AppDelegate.swift in Sources */,
+				339130F72C476B880080B184 /* GifImageViewController.swift in Sources */,
+				339130F52C476B350080B184 /* UIImage＋Gif.swift in Sources */,
+				339130F92C47853A0080B184 /* ImageViewController.swift in Sources */,
 				339130E12C4769BF0080B184 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
